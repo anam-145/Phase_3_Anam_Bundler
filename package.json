@@ -1,0 +1,23 @@
+{
+  "name": "anam-bundler",
+  "version": "1.0.0",
+  "description": "Custom ERC-4337 bundler for UNDP Liberia — replaces Pimlico/Alto",
+  "type": "module",
+  "scripts": {
+    "bundler": "tsx src/bundler-node.ts",
+    "server": "tsx src/server.ts",
+    "send": "tsx src/sendUserOp.ts"
+  },
+  "dependencies": {
+    "@account-abstraction/contracts": "^0.7.0",
+    "@fastify/cors": "^11.2.0",
+    "dotenv": "^17.3.1",
+    "fastify": "^5.8.4",
+    "viem": "^2.47.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.15",
+    "tsx": "^4.21.0",
+    "typescript": "~5.8.0"
+  }
+}
